@@ -7,7 +7,7 @@ struct IntroScreen: View {
         NavigationView {
             VStack {
                 Spacer()
-
+                
                 Text("Daily Doodle")
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -34,7 +34,7 @@ struct IntroScreen: View {
                 
                 Spacer()
             }
-            .navigationBarHidden(true) // Hides the top-left navigation bar
+            .navigationBarHidden(true)
         }
     }
 }
@@ -42,4 +42,3 @@ struct IntroScreen: View {
 #Preview {
     IntroScreen()
 }
-

@@ -3,7 +3,6 @@ import SwiftUI
 struct StartScreen: View {
     @State private var word: String = "Press 'Get a Word'"
     @State private var navigateToDrawing = false
-    
     let words = ["Tree", "Sun", "House", "Dog", "Car", "Star", "Balloon", "Fish", "Phone", "Clock"]
 
     var body: some View {
@@ -52,4 +51,3 @@ struct StartScreen: View {
 #Preview {
     StartScreen()
 }
-
